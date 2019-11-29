@@ -32,7 +32,7 @@ namespace Blog
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Test");
+                    await context.Response.WriteAsync("Test+ test& ");
                 });
             });
         }
